@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  width: 100vmin;
+  height: 100vmin;
+  margin: auto;
+  background-image: linear-gradient(to right top, #cd0606d0, #b66400dc, #949100c5, #69b245c4, #2dcd95cc, #23d9a8ce, #4bf7afcc, #82f882d5, #b6f650d7, #eeee09de), url('https://i.ibb.co/yVyM1GW/tetris.png');
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  line-height: 1.8;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.container {
+	width: 500px;
+  margin: 15% auto;
+}
+
+.instructions {
+	margin-top: 20px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.tetrisCanvas {
+	box-shadow: 3px 5px 10px #070808;
+	outline: none;
+}
